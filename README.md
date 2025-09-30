@@ -69,10 +69,9 @@ g++ src/*.cpp -o meu_programa
 
 ## Diagrama (Wokwi)
 
-O projeto inclui um arquivo `diagram.json`, que pode ser aberto diretamente no Wokwi
- para visualizar e simular o circuito.
+O projeto inclui um arquivo `diagram.json`, que pode ser aberto diretamente no [Wokwi](https://wokwi.com/projects/new/esp32) para visualizar e simular o circuito. Copie o conteúdo do arquivo `diagram.json` e cole na aba `diagram.json` no site Wokwi.
 
-🔹 No VS Code, instale a extensão Wokwi for VS Code e clique com o botão direito em diagram.json → Reopen Editor with → Wokwi Diagram Editor.
+No VS Code, instale a extensão Wokwi for VS Code e clique com o botão direito em diagram.json → Reopen Editor with → Wokwi Diagram Editor.
 
 ## Contribuição
 
