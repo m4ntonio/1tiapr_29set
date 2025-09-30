@@ -85,7 +85,6 @@ Abra um pull request
 
 ## Licença
 
-Este projeto está sob a licença MIT — veja o arquivo LICENSE
- para detalhes.
+Este projeto está sob a licença MIT — veja o arquivo LICENSE para detalhes.
 
 Made with ❤️ by m4ntonio
