@@ -41,14 +41,14 @@ O foco é mostrar como funciona a avaliação lógica usando esse operador em um
 ```
 ├── .vscode/
 ├── src/
-│ └── … (códigos fonte)
+│ └── prog.ino (código fonte)
 ├── platformio.ini
 ├── wokwi.toml
 ├── diagram.json
 └── .gitignore
 ```
 
-- **src/**: código-fonte principal  
+- **src/prog.ino: código-fonte principal  
 - **platformio.ini**: configuração do projeto embutido  
 - **wokwi.toml**: configuração de simulação  
 - **diagram.json**: circuito para abrir no Wokwi  
@@ -57,7 +57,7 @@ O foco é mostrar como funciona a avaliação lógica usando esse operador em um
 
 ## Como compilar / usar
 
-```bash
+```
 # Exemplo de comando (ajuste conforme seu setup)
 platformio run
 
@@ -65,17 +65,16 @@ Ou, se for C++ puro:
 
 g++ src/*.cpp -o meu_programa
 ./meu_programa
+```
 
-Diagrama (Wokwi)
+## Diagrama (Wokwi)
 
-O projeto inclui um arquivo diagram.json, que pode ser aberto diretamente no Wokwi
+O projeto inclui um arquivo `diagram.json`, que pode ser aberto diretamente no Wokwi
  para visualizar e simular o circuito.
 
-🔹 No VS Code, instale a extensão Wokwi for VS Code
+🔹 No VS Code, instale a extensão Wokwi for VS Code e clique com o botão direito em diagram.json → Reopen Editor with → Wokwi Diagram Editor.
 
-e clique com o botão direito em diagram.json → Reopen Editor with → Wokwi Diagram Editor.
-
-Contribuição
+## Contribuição
 
 Contribuições são bem-vindas! Se quiser sugerir melhorias ou correções:
 
@@ -85,7 +84,7 @@ Crie uma branch com sua feature ou correção
 
 Abra um pull request
 
-Licença
+## Licença
 
 Este projeto está sob a licença MIT — veja o arquivo LICENSE
  para detalhes.
